@@ -14,13 +14,13 @@
     <div class="navigation">   
         <nav class="bar">
             <ul>
-               <li><a href="index.html">Home</a></li> 
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="branches.html">Branches</a></li>
+               <li><a href="index.php">Home</a></li> 
+                <li><a href="about.phpl">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="reservations.php">Reservations</a></li>
+                <li><a href="branches.php">Branches</a></li>
             </ul>
         </nav>  
         </div> 
