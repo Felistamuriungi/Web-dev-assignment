@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - Delicious Bites</title>
+    <link rel="stylesheet" href="Web-dev-assignment/style.css"> <!--link to the css stylesheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for proper response of bootsatrap code-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><!--CDN links -->
+</head>
+<body class="backgroundcolor">
+    
+    <div class="navigation">   
+        <nav class="bar">
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="branches.html">Branches</a></li>
+            </ul>
+        </nav>  
+        </div> 
+    
+    
+    <div class="main-content">
+        <h1>Reservations - Delicious Bites</h1>
+        <p>Book your stay at Kempinski Nairobi and experience luxury like never before.</p>
+        <form>
+            <!-- Reservation form -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required><br>
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required><br>
+            <input type="submit" value="Submit Reservation">
+        </form>
+    </div>
+</body>
+</html>
