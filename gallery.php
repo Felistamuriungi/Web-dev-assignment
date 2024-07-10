@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Delicious Bites</title>
-    <link rel="stylesheet" href="Web-dev-assignment/style.css"> <!--link to the css stylesheet-->
+    <link rel="stylesheet" href="css/style.css"> <!--link to the css stylesheet-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for proper response of bootsatrap code-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><!--CDN links -->
 </head>
@@ -27,21 +27,21 @@
     <div class="main-content">
         <h1 align="margin" style="background-color:purple; font-style: italic;"> Delicious Bites Gallery</h1>
         <div class="gallery-item">
-            <img src="IMG/image1.jpg" alt="Image 1">
+            <img src="Images/starters.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image2.jpg" alt="Image 1">
+            <img src="Images/six.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image3.jpg" alt="Image 1">
+            <img src="Images/three.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image4.jpg" alt="Image 1">
+            <img src="Images/eight.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image5.jpg" alt="Image 1">
+            <img src="Images/drinks.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image6.jpg" alt="Image 1">
+            <img src="Images/twelve.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image7.jpg" alt="Image 1">
+            <img src="Images/cool.jpg" alt="Image 1">
             <p>Sous Chef</p>
-            <img src="IMG/image8.jpg" alt="Image 1">
+            <img src="Images/six.jpg" alt="Image 1">
             <p>Sous Chef</p>
         </div>
     </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="Web-dev-assignment/style.css"> <!--link to the css stylesheet-->
+    <link rel="stylesheet" href="css/style.css"> <!--link to the css stylesheet-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for proper response of bootsatrap code-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><!--CDN links -->
 </head>

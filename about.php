@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="Web-dev-assignment/style.css"> <!--link to the css stylesheet-->
+    <link rel="stylesheet" href="css/style.css"> <!--link to the css stylesheet-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for proper response of bootsatrap code-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><!--CDN links -->
 </head>
@@ -15,7 +15,7 @@
         <nav class="bar">
             <ul>
                <li><a href="index.php">Home</a></li> 
-                <li><a href="about.phpl">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="menu.php">Menu</a></li>
@@ -28,7 +28,7 @@
 
     <div class="main-content">
     <h1>About</h1>
-        <img src="C:\Users\felly\OneDrive\New folder\New folder\Images\about.png" alt="About"width="200"height="150"/>
+        <img src="Images/about.png" alt="About"width="200"height="150"/>
         <h1 align="center" style="background-color: aqua;font-style: italic;">Introduction to the restaurant</h1>
         <p>"Here, at Delicious Bites, we understand cravings. We know how important it is to get your food fast, and we have a 1-hour delivery guarantee, or you get your money back.
             While we prepare our food fast, we develop the flavor slowly. Our dough rises over the night, and our meat is always marinated. That's why every chicken tender, every beef skewer, and every bun tastes like heaven.</p>
