@@ -27,18 +27,18 @@
     
     <div class="main-content">
         <h1>Reservations - Delicious Bites</h1>
-        <p>Book your stay at Kempinski Nairobi and experience luxury like never before.</p>
-        <form>
+        <p>Book your stay at Delicious Bites and experience luxury like never before.</p>
+        <form action="Web-Dev-Assignment/reservations.php"method="POST">
             <!-- Reservation form -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <input type="text" id="email" name="email" required><br>
             <label for="checkin">Check-in Date:</label>
             <input type="date" id="checkin" name="checkin" required><br>
             <label for="checkout">Check-out Date:</label>
             <input type="date" id="checkout" name="checkout" required><br>
-            <input type="submit" value="Submit Reservation">
+            <input type="submit" value="Submit Reservation"name="submit">
         </form>
     </div>
 </body>
