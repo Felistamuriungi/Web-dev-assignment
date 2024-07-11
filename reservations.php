@@ -28,7 +28,7 @@
     <div class="main-content">
         <h1>Reservations - Delicious Bites</h1>
         <p>Book your stay at Delicious Bites and experience luxury like never before.</p>
-        <form action="Web-Dev-Assignment/reservations.php"method="POST">
+        <form action="Web-dev-assignment/reservations.php"method="POST">
             <!-- Reservation form -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br>
