@@ -6,13 +6,11 @@
 
 
 
-/* Global styles */
 .backgroundcolor{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #666;
-
+    background-color:grey;
 }
 
 
@@ -78,18 +76,10 @@ align-items:center;
 
 
 
-
-
-
-
-
-
-
-
 .main-content {
     padding: 20px;
     margin-top: 10%;
-    color: aliceblue;
+    color: gray;
     
 }
 

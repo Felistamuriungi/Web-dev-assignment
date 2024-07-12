@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for proper response of bootsatrap code-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><!--CDN links -->
 </head>
-<body background="Images/six.jpg">
+<body class="backgroundcolor">
 
 
 <div class="navigation">   

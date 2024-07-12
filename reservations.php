@@ -28,7 +28,7 @@
     <div class="main-content">
         <h1>Reservations - Delicious Bites</h1>
         <p>Book your stay at Delicious Bites and experience luxury like never before.</p>
-        <form action="Web-dev-assignment/reservations.php"method="POST">
+        <form action="" method="post">
             <!-- Reservation form -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br>
@@ -41,5 +41,39 @@
             <input type="submit" value="Submit Reservation"name="submit">
         </form>
     </div>
+
+    <?php
+        require 'Connection.php';
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (isset($_POST["name"], $_POST["email"],$_POST["check_in_date"], $_POST["check_out_date"],)) {
+            $Name = $_POST["name"];
+            $Email = $_POST["email"];
+            $check_in_date = $_POST["check_in_date"];
+            $check_out_date= $_POST["check_out_date"];
+
+            $duplicate = mysqli_query($conn, "SELECT * FROM registration WHERE Name='$Name' OR email='$Email'");
+
+            if (mysqli_num_rows($duplicate) > 0) {
+                echo "<script>alert('Name or Email already exists');</script>";
+            } else {
+                $query = "INSERT INTO contactus (Name, Email, check_in_date,check_out_date) VALUES ('$Name', '$Email', '$check_in_date, '$check_out_date')";
+                mysqli_query($conn, $query);
+                echo "<script>alert('Submission Successful');</script>";
+            }
+        }
+    }
+?>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
